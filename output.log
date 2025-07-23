@@ -1,0 +1,903 @@
+/home/yazeed/miniconda3/envs/covisit/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 1:
+  Training    - MSE: 3881.6443, RMSE: 62.3028, MAE: 22.8560, R2: -0.6193
+  Validation  - MSE: 1990.4200, RMSE: 44.6141, MAE: 9.8396, R2: 0.0356
+Epoch 2:
+  Training    - MSE: 2318.7019, RMSE: 48.1529, MAE: 8.9681, R2: 0.0327
+  Validation  - MSE: 1861.8951, RMSE: 43.1497, MAE: 10.0520, R2: 0.0979
+Epoch 3:
+  Training    - MSE: 2311.7725, RMSE: 48.0809, MAE: 8.6941, R2: 0.0356
+  Validation  - MSE: 1974.2617, RMSE: 44.4327, MAE: 7.2689, R2: 0.0434
+Epoch 4:
+  Training    - MSE: 2188.7156, RMSE: 46.7837, MAE: 8.3706, R2: 0.0869
+  Validation  - MSE: 1584.9475, RMSE: 39.8114, MAE: 7.5407, R2: 0.2321
+Epoch 5:
+  Training    - MSE: 2094.5837, RMSE: 45.7666, MAE: 8.0497, R2: 0.1262
+  Validation  - MSE: 1488.0464, RMSE: 38.5752, MAE: 6.7518, R2: 0.2790
+Epoch 6:
+  Training    - MSE: 1880.3392, RMSE: 43.3629, MAE: 7.4553, R2: 0.2156
+  Validation  - MSE: 1388.7914, RMSE: 37.2665, MAE: 6.1334, R2: 0.3271
+Epoch 7:
+  Training    - MSE: 1631.2683, RMSE: 40.3890, MAE: 6.8733, R2: 0.3195
+  Validation  - MSE: 1211.7151, RMSE: 34.8097, MAE: 5.8955, R2: 0.4129
+Epoch 8:
+  Training    - MSE: 1568.2640, RMSE: 39.6013, MAE: 6.8732, R2: 0.3458
+  Validation  - MSE: 1163.6921, RMSE: 34.1129, MAE: 5.7581, R2: 0.4362
+Epoch 9:
+  Training    - MSE: 1499.2089, RMSE: 38.7196, MAE: 6.8753, R2: 0.3746
+  Validation  - MSE: 1179.0281, RMSE: 34.3370, MAE: 5.4825, R2: 0.4287
+Epoch 10:
+  Training    - MSE: 1447.4946, RMSE: 38.0460, MAE: 6.7830, R2: 0.3961
+  Validation  - MSE: 1087.2799, RMSE: 32.9739, MAE: 5.4183, R2: 0.4732
+Epoch 11:
+  Training    - MSE: 1408.5098, RMSE: 37.5301, MAE: 6.7286, R2: 0.4124
+  Validation  - MSE: 1125.0208, RMSE: 33.5413, MAE: 5.4452, R2: 0.4549
+Epoch 12:
+  Training    - MSE: 1402.4388, RMSE: 37.4492, MAE: 6.7347, R2: 0.4149
+  Validation  - MSE: 1083.4944, RMSE: 32.9165, MAE: 5.5551, R2: 0.4750
+Epoch 13:
+  Training    - MSE: 1388.7831, RMSE: 37.2664, MAE: 6.7242, R2: 0.4206
+  Validation  - MSE: 1040.7056, RMSE: 32.2600, MAE: 5.8424, R2: 0.4958
+Epoch 14:
+  Training    - MSE: 1432.1155, RMSE: 37.8433, MAE: 6.7431, R2: 0.4026
+  Validation  - MSE: 1056.9186, RMSE: 32.5103, MAE: 6.2689, R2: 0.4879
+Epoch 15:
+  Training    - MSE: 1312.5559, RMSE: 36.2292, MAE: 6.5124, R2: 0.4524
+  Validation  - MSE: 978.7328, RMSE: 31.2847, MAE: 5.7978, R2: 0.5258
+Epoch 16:
+  Training    - MSE: 1251.8524, RMSE: 35.3815, MAE: 6.3382, R2: 0.4778
+  Validation  - MSE: 912.2068, RMSE: 30.2028, MAE: 5.5445, R2: 0.5580
+Epoch 17:
+  Training    - MSE: 1172.2893, RMSE: 34.2387, MAE: 6.1987, R2: 0.5109
+  Validation  - MSE: 919.4740, RMSE: 30.3228, MAE: 5.2620, R2: 0.5545
+Epoch 18:
+  Training    - MSE: 1139.3588, RMSE: 33.7544, MAE: 6.1377, R2: 0.5247
+  Validation  - MSE: 904.0312, RMSE: 30.0671, MAE: 5.2397, R2: 0.5620
+Epoch 19:
+  Training    - MSE: 1164.7723, RMSE: 34.1288, MAE: 6.0489, R2: 0.5141
+  Validation  - MSE: 884.0942, RMSE: 29.7337, MAE: 5.6383, R2: 0.5716
+Epoch 20:
+  Training    - MSE: 1147.7908, RMSE: 33.8791, MAE: 6.0648, R2: 0.5212
+  Validation  - MSE: 947.3228, RMSE: 30.7786, MAE: 5.1632, R2: 0.5410
+Epoch 21:
+  Training    - MSE: 1081.8115, RMSE: 32.8909, MAE: 5.9763, R2: 0.5487
+  Validation  - MSE: 849.6205, RMSE: 29.1483, MAE: 5.5459, R2: 0.5883
+Epoch 22:
+  Training    - MSE: 1206.1949, RMSE: 34.7303, MAE: 6.2441, R2: 0.4968
+  Validation  - MSE: 886.9123, RMSE: 29.7811, MAE: 5.3613, R2: 0.5703
+Epoch 23:
+  Training    - MSE: 1156.3257, RMSE: 34.0048, MAE: 5.9969, R2: 0.5176
+  Validation  - MSE: 922.2811, RMSE: 30.3691, MAE: 5.1943, R2: 0.5531
+Epoch 24:
+  Training    - MSE: 1107.8292, RMSE: 33.2841, MAE: 5.9909, R2: 0.5378
+  Validation  - MSE: 929.0553, RMSE: 30.4804, MAE: 6.3279, R2: 0.5499
+Epoch 25:
+  Training    - MSE: 1211.4663, RMSE: 34.8061, MAE: 6.2684, R2: 0.4946
+  Validation  - MSE: 882.6702, RMSE: 29.7098, MAE: 5.3852, R2: 0.5723
+Epoch 26:
+  Training    - MSE: 1056.8707, RMSE: 32.5095, MAE: 5.8472, R2: 0.5591
+  Validation  - MSE: 1302.4275, RMSE: 36.0892, MAE: 7.0825, R2: 0.3689
+Epoch 27:
+  Training    - MSE: 1123.9564, RMSE: 33.5255, MAE: 5.9906, R2: 0.5311
+  Validation  - MSE: 956.0303, RMSE: 30.9197, MAE: 5.9797, R2: 0.5368
+Epoch 28:
+  Training    - MSE: 1090.2963, RMSE: 33.0196, MAE: 5.9025, R2: 0.5452
+  Validation  - MSE: 909.6044, RMSE: 30.1596, MAE: 5.7859, R2: 0.5593
+Epoch 29:
+  Training    - MSE: 1119.6560, RMSE: 33.4613, MAE: 6.1065, R2: 0.5329
+  Validation  - MSE: 875.9186, RMSE: 29.5959, MAE: 5.4648, R2: 0.5756
+Epoch 30:
+  Training    - MSE: 1093.9385, RMSE: 33.0747, MAE: 6.1341, R2: 0.5436
+  Validation  - MSE: 989.6392, RMSE: 31.4585, MAE: 5.1275, R2: 0.5205
+Epoch 31:
+  Training    - MSE: 1085.8275, RMSE: 32.9519, MAE: 6.1213, R2: 0.5470
+  Validation  - MSE: 1017.8484, RMSE: 31.9037, MAE: 5.1796, R2: 0.5068
+Epoch 32:
+  Training    - MSE: 1105.3241, RMSE: 33.2464, MAE: 6.1767, R2: 0.5389
+  Validation  - MSE: 998.6166, RMSE: 31.6009, MAE: 5.3308, R2: 0.5161
+Epoch 33:
+  Training    - MSE: 997.2604, RMSE: 31.5794, MAE: 5.8510, R2: 0.5840
+  Validation  - MSE: 939.3557, RMSE: 30.6489, MAE: 5.2722, R2: 0.5449
+Epoch 34:
+  Training    - MSE: 957.1904, RMSE: 30.9385, MAE: 5.7504, R2: 0.6007
+  Validation  - MSE: 957.9712, RMSE: 30.9511, MAE: 5.1871, R2: 0.5358
+Epoch 35:
+  Training    - MSE: 967.7104, RMSE: 31.1080, MAE: 5.6808, R2: 0.5963
+  Validation  - MSE: 965.5544, RMSE: 31.0734, MAE: 5.1936, R2: 0.5322
+Epoch 36:
+  Training    - MSE: 961.1018, RMSE: 31.0016, MAE: 5.6787, R2: 0.5990
+  Validation  - MSE: 938.7924, RMSE: 30.6397, MAE: 5.1946, R2: 0.5451
+Epoch 37:
+  Training    - MSE: 929.9159, RMSE: 30.4945, MAE: 5.6225, R2: 0.6121
+  Validation  - MSE: 917.9972, RMSE: 30.2985, MAE: 5.1414, R2: 0.5552
+Epoch 38:
+  Training    - MSE: 948.5445, RMSE: 30.7984, MAE: 5.6350, R2: 0.6043
+  Validation  - MSE: 905.0026, RMSE: 30.0833, MAE: 5.1696, R2: 0.5615
+Epoch 39:
+  Training    - MSE: 938.6198, RMSE: 30.6369, MAE: 5.6122, R2: 0.6084
+  Validation  - MSE: 963.6867, RMSE: 31.0433, MAE: 5.1248, R2: 0.5331
+Epoch 40:
+  Training    - MSE: 916.6244, RMSE: 30.2758, MAE: 5.5961, R2: 0.6176
+  Validation  - MSE: 920.5789, RMSE: 30.3410, MAE: 5.1259, R2: 0.5540
+Epoch 41:
+  Training    - MSE: 917.2232, RMSE: 30.2857, MAE: 5.5615, R2: 0.6174
+  Validation  - MSE: 922.7170, RMSE: 30.3763, MAE: 5.1460, R2: 0.5529
+Epoch 42:
+  Training    - MSE: 910.3559, RMSE: 30.1721, MAE: 5.5648, R2: 0.6202
+  Validation  - MSE: 912.6547, RMSE: 30.2102, MAE: 5.1580, R2: 0.5578
+Epoch 43:
+  Training    - MSE: 918.6389, RMSE: 30.3091, MAE: 5.5539, R2: 0.6168
+  Validation  - MSE: 919.4841, RMSE: 30.3230, MAE: 5.1419, R2: 0.5545
+Epoch 44:
+  Training    - MSE: 911.2968, RMSE: 30.1877, MAE: 5.5368, R2: 0.6198
+  Validation  - MSE: 929.1525, RMSE: 30.4820, MAE: 5.1248, R2: 0.5498
+Epoch 45:
+  Training    - MSE: 906.8503, RMSE: 30.1140, MAE: 5.5541, R2: 0.6217
+  Validation  - MSE: 912.5523, RMSE: 30.2085, MAE: 5.1394, R2: 0.5578
+Epoch 46:
+  Training    - MSE: 893.0989, RMSE: 29.8848, MAE: 5.5134, R2: 0.6274
+  Validation  - MSE: 895.9977, RMSE: 29.9332, MAE: 5.1541, R2: 0.5659
+Epoch 47:
+  Training    - MSE: 912.2859, RMSE: 30.2041, MAE: 5.5748, R2: 0.6194
+  Validation  - MSE: 899.2636, RMSE: 29.9877, MAE: 5.1125, R2: 0.5643
+Epoch 48:
+  Training    - MSE: 898.6256, RMSE: 29.9771, MAE: 5.5671, R2: 0.6251
+  Validation  - MSE: 888.3434, RMSE: 29.8051, MAE: 5.1447, R2: 0.5696
+Epoch 49:
+  Training    - MSE: 882.6016, RMSE: 29.7086, MAE: 5.5208, R2: 0.6318
+  Validation  - MSE: 889.5727, RMSE: 29.8257, MAE: 5.1624, R2: 0.5690
+Epoch 50:
+  Training    - MSE: 902.7864, RMSE: 30.0464, MAE: 5.5691, R2: 0.6234
+  Validation  - MSE: 898.4381, RMSE: 29.9740, MAE: 5.1523, R2: 0.5647
+Epoch 51:
+  Training    - MSE: 878.2751, RMSE: 29.6357, MAE: 5.4974, R2: 0.6336
+  Validation  - MSE: 886.1049, RMSE: 29.7675, MAE: 5.1448, R2: 0.5707
+Epoch 52:
+  Training    - MSE: 899.8856, RMSE: 29.9981, MAE: 5.5312, R2: 0.6246
+  Validation  - MSE: 903.4540, RMSE: 30.0575, MAE: 5.1174, R2: 0.5623
+Epoch 53:
+  Training    - MSE: 899.4659, RMSE: 29.9911, MAE: 5.4824, R2: 0.6248
+  Validation  - MSE: 888.0266, RMSE: 29.7998, MAE: 5.1637, R2: 0.5697
+Epoch 54:
+  Training    - MSE: 892.4017, RMSE: 29.8731, MAE: 5.5202, R2: 0.6277
+  Validation  - MSE: 897.6661, RMSE: 29.9611, MAE: 5.1478, R2: 0.5651
+Epoch 55:
+  Training    - MSE: 890.8774, RMSE: 29.8476, MAE: 5.5090, R2: 0.6283
+  Validation  - MSE: 898.3739, RMSE: 29.9729, MAE: 5.1427, R2: 0.5647
+Epoch 56:
+  Training    - MSE: 900.8875, RMSE: 30.0148, MAE: 5.5367, R2: 0.6242
+  Validation  - MSE: 886.6592, RMSE: 29.7768, MAE: 5.1649, R2: 0.5704
+Epoch 57:
+  Training    - MSE: 873.2847, RMSE: 29.5514, MAE: 5.4963, R2: 0.6357
+  Validation  - MSE: 894.1987, RMSE: 29.9032, MAE: 5.1550, R2: 0.5667
+Epoch 58:
+  Training    - MSE: 889.6721, RMSE: 29.8274, MAE: 5.5242, R2: 0.6288
+  Validation  - MSE: 898.1688, RMSE: 29.9695, MAE: 5.1409, R2: 0.5648
+Epoch 59:
+  Training    - MSE: 895.1786, RMSE: 29.9195, MAE: 5.5342, R2: 0.6266
+  Validation  - MSE: 892.6389, RMSE: 29.8771, MAE: 5.1651, R2: 0.5675
+Epoch 60:
+  Training    - MSE: 872.4586, RMSE: 29.5374, MAE: 5.5053, R2: 0.6360
+  Validation  - MSE: 892.7219, RMSE: 29.8785, MAE: 5.1515, R2: 0.5675
+Epoch 61:
+  Training    - MSE: 888.1678, RMSE: 29.8021, MAE: 5.5262, R2: 0.6295
+  Validation  - MSE: 894.6038, RMSE: 29.9099, MAE: 5.1514, R2: 0.5665
+Epoch 62:
+  Training    - MSE: 879.9825, RMSE: 29.6645, MAE: 5.5082, R2: 0.6329
+  Validation  - MSE: 896.1826, RMSE: 29.9363, MAE: 5.1582, R2: 0.5658
+Epoch 63:
+  Training    - MSE: 882.8169, RMSE: 29.7122, MAE: 5.4984, R2: 0.6317
+  Validation  - MSE: 899.7257, RMSE: 29.9954, MAE: 5.1476, R2: 0.5641
+Epoch 64:
+  Training    - MSE: 874.6923, RMSE: 29.5752, MAE: 5.5082, R2: 0.6351
+  Validation  - MSE: 906.2517, RMSE: 30.1040, MAE: 5.1360, R2: 0.5609
+Epoch 65:
+  Training    - MSE: 890.4330, RMSE: 29.8401, MAE: 5.5068, R2: 0.6285
+  Validation  - MSE: 902.3653, RMSE: 30.0394, MAE: 5.1391, R2: 0.5628
+Epoch 66:
+  Training    - MSE: 865.8394, RMSE: 29.4251, MAE: 5.4862, R2: 0.6388
+  Validation  - MSE: 910.2141, RMSE: 30.1698, MAE: 5.1380, R2: 0.5590
+Epoch 67:
+  Training    - MSE: 869.3196, RMSE: 29.4842, MAE: 5.4538, R2: 0.6373
+  Validation  - MSE: 900.3514, RMSE: 30.0059, MAE: 5.1536, R2: 0.5638
+Epoch 68:
+  Training    - MSE: 884.3420, RMSE: 29.7379, MAE: 5.5139, R2: 0.6311
+  Validation  - MSE: 896.7746, RMSE: 29.9462, MAE: 5.1709, R2: 0.5655
+Epoch 69:
+  Training    - MSE: 885.4316, RMSE: 29.7562, MAE: 5.4889, R2: 0.6306
+  Validation  - MSE: 896.6353, RMSE: 29.9439, MAE: 5.1644, R2: 0.5656
+Epoch 70:
+  Training    - MSE: 880.5625, RMSE: 29.6743, MAE: 5.5281, R2: 0.6326
+  Validation  - MSE: 905.2518, RMSE: 30.0874, MAE: 5.1427, R2: 0.5614
+Epoch 71:
+  Training    - MSE: 875.1158, RMSE: 29.5824, MAE: 5.4833, R2: 0.6349
+  Validation  - MSE: 906.6955, RMSE: 30.1114, MAE: 5.1332, R2: 0.5607
+Epoch 72:
+  Training    - MSE: 896.2563, RMSE: 29.9375, MAE: 5.5060, R2: 0.6261
+  Validation  - MSE: 894.5901, RMSE: 29.9097, MAE: 5.1586, R2: 0.5666
+Epoch 73:
+  Training    - MSE: 885.6014, RMSE: 29.7591, MAE: 5.5267, R2: 0.6305
+  Validation  - MSE: 896.3338, RMSE: 29.9388, MAE: 5.1658, R2: 0.5657
+Epoch 74:
+  Training    - MSE: 887.9940, RMSE: 29.7992, MAE: 5.4638, R2: 0.6295
+  Validation  - MSE: 909.4875, RMSE: 30.1577, MAE: 5.1379, R2: 0.5593
+Epoch 75:
+  Training    - MSE: 878.2391, RMSE: 29.6351, MAE: 5.5079, R2: 0.6336
+  Validation  - MSE: 895.1387, RMSE: 29.9189, MAE: 5.1605, R2: 0.5663
+Epoch 76:
+  Training    - MSE: 878.0511, RMSE: 29.6319, MAE: 5.5028, R2: 0.6337
+  Validation  - MSE: 896.9668, RMSE: 29.9494, MAE: 5.1533, R2: 0.5654
+Epoch 77:
+  Training    - MSE: 867.6536, RMSE: 29.4560, MAE: 5.4861, R2: 0.6380
+  Validation  - MSE: 896.0361, RMSE: 29.9339, MAE: 5.1496, R2: 0.5659
+Epoch 78:
+  Training    - MSE: 904.3757, RMSE: 30.0728, MAE: 5.5395, R2: 0.6227
+  Validation  - MSE: 898.7644, RMSE: 29.9794, MAE: 5.1486, R2: 0.5645
+Epoch 79:
+  Training    - MSE: 899.0009, RMSE: 29.9833, MAE: 5.5230, R2: 0.6250
+  Validation  - MSE: 897.2720, RMSE: 29.9545, MAE: 5.1508, R2: 0.5653
+Epoch 80:
+  Training    - MSE: 868.2024, RMSE: 29.4653, MAE: 5.4974, R2: 0.6378
+  Validation  - MSE: 901.6406, RMSE: 30.0273, MAE: 5.1511, R2: 0.5631
+Epoch 81:
+  Training    - MSE: 898.5642, RMSE: 29.9761, MAE: 5.5238, R2: 0.6251
+  Validation  - MSE: 897.8309, RMSE: 29.9638, MAE: 5.1465, R2: 0.5650
+Epoch 82:
+  Training    - MSE: 881.8495, RMSE: 29.6960, MAE: 5.5131, R2: 0.6321
+  Validation  - MSE: 901.6472, RMSE: 30.0274, MAE: 5.1387, R2: 0.5631
+Epoch 83:
+  Training    - MSE: 870.0630, RMSE: 29.4968, MAE: 5.4957, R2: 0.6370
+  Validation  - MSE: 896.9131, RMSE: 29.9485, MAE: 5.1508, R2: 0.5654
+Epoch 84:
+  Training    - MSE: 890.4609, RMSE: 29.8406, MAE: 5.4793, R2: 0.6285
+  Validation  - MSE: 895.8352, RMSE: 29.9305, MAE: 5.1582, R2: 0.5659
+Epoch 85:
+  Training    - MSE: 884.2981, RMSE: 29.7372, MAE: 5.4799, R2: 0.6311
+  Validation  - MSE: 900.6231, RMSE: 30.0104, MAE: 5.1455, R2: 0.5636
+Epoch 86:
+  Training    - MSE: 881.8058, RMSE: 29.6952, MAE: 5.5202, R2: 0.6321
+  Validation  - MSE: 901.6407, RMSE: 30.0273, MAE: 5.1361, R2: 0.5631
+Epoch 87:
+  Training    - MSE: 892.2103, RMSE: 29.8699, MAE: 5.5131, R2: 0.6278
+  Validation  - MSE: 897.1141, RMSE: 29.9519, MAE: 5.1534, R2: 0.5653
+Epoch 88:
+  Training    - MSE: 883.1273, RMSE: 29.7175, MAE: 5.5114, R2: 0.6316
+  Validation  - MSE: 900.5252, RMSE: 30.0088, MAE: 5.1499, R2: 0.5637
+Epoch 89:
+  Training    - MSE: 884.7014, RMSE: 29.7439, MAE: 5.4890, R2: 0.6309
+  Validation  - MSE: 897.7404, RMSE: 29.9623, MAE: 5.1461, R2: 0.5650
+Epoch 90:
+  Training    - MSE: 867.0182, RMSE: 29.4452, MAE: 5.4962, R2: 0.6383
+  Validation  - MSE: 896.2073, RMSE: 29.9367, MAE: 5.1592, R2: 0.5658
+Epoch 91:
+  Training    - MSE: 897.2377, RMSE: 29.9539, MAE: 5.4741, R2: 0.6257
+  Validation  - MSE: 900.0604, RMSE: 30.0010, MAE: 5.1456, R2: 0.5639
+Epoch 92:
+  Training    - MSE: 882.1405, RMSE: 29.7009, MAE: 5.4945, R2: 0.6320
+  Validation  - MSE: 896.2551, RMSE: 29.9375, MAE: 5.1513, R2: 0.5657
+Epoch 93:
+  Training    - MSE: 871.0338, RMSE: 29.5133, MAE: 5.5161, R2: 0.6366
+  Validation  - MSE: 896.3116, RMSE: 29.9385, MAE: 5.1576, R2: 0.5657
+Epoch 94:
+  Training    - MSE: 867.7720, RMSE: 29.4580, MAE: 5.5031, R2: 0.6380
+  Validation  - MSE: 900.5223, RMSE: 30.0087, MAE: 5.1442, R2: 0.5637
+Epoch 95:
+  Training    - MSE: 889.7977, RMSE: 29.8295, MAE: 5.5065, R2: 0.6288
+  Validation  - MSE: 901.4730, RMSE: 30.0245, MAE: 5.1470, R2: 0.5632
+Epoch 96:
+  Training    - MSE: 909.7070, RMSE: 30.1613, MAE: 5.5430, R2: 0.6205
+  Validation  - MSE: 898.6430, RMSE: 29.9774, MAE: 5.1560, R2: 0.5646
+Epoch 97:
+  Training    - MSE: 880.3506, RMSE: 29.6707, MAE: 5.5146, R2: 0.6327
+  Validation  - MSE: 897.8157, RMSE: 29.9636, MAE: 5.1593, R2: 0.5650
+Epoch 98:
+  Training    - MSE: 881.4448, RMSE: 29.6891, MAE: 5.4822, R2: 0.6323
+  Validation  - MSE: 896.3188, RMSE: 29.9386, MAE: 5.1567, R2: 0.5657
+Epoch 99:
+  Training    - MSE: 876.0549, RMSE: 29.5982, MAE: 5.4660, R2: 0.6345
+  Validation  - MSE: 893.0540, RMSE: 29.8840, MAE: 5.1530, R2: 0.5673
+Epoch 100:
+  Training    - MSE: 871.3879, RMSE: 29.5193, MAE: 5.4884, R2: 0.6365
+  Validation  - MSE: 899.0546, RMSE: 29.9842, MAE: 5.1398, R2: 0.5644
+Epoch 101:
+  Training    - MSE: 883.4988, RMSE: 29.7237, MAE: 5.4864, R2: 0.6314
+  Validation  - MSE: 895.0640, RMSE: 29.9176, MAE: 5.1519, R2: 0.5663
+Epoch 102:
+  Training    - MSE: 876.3657, RMSE: 29.6035, MAE: 5.5079, R2: 0.6344
+  Validation  - MSE: 892.9042, RMSE: 29.8815, MAE: 5.1544, R2: 0.5674
+Epoch 103:
+  Training    - MSE: 866.8447, RMSE: 29.4422, MAE: 5.4959, R2: 0.6384
+  Validation  - MSE: 896.7877, RMSE: 29.9464, MAE: 5.1505, R2: 0.5655
+Epoch 104:
+  Training    - MSE: 897.6615, RMSE: 29.9610, MAE: 5.5171, R2: 0.6255
+  Validation  - MSE: 902.0936, RMSE: 30.0349, MAE: 5.1399, R2: 0.5629
+Epoch 105:
+  Training    - MSE: 873.4099, RMSE: 29.5535, MAE: 5.4762, R2: 0.6356
+  Validation  - MSE: 898.6208, RMSE: 29.9770, MAE: 5.1558, R2: 0.5646
+Epoch 106:
+  Training    - MSE: 886.2888, RMSE: 29.7706, MAE: 5.5248, R2: 0.6303
+  Validation  - MSE: 892.0540, RMSE: 29.8673, MAE: 5.1649, R2: 0.5678
+Epoch 107:
+  Training    - MSE: 881.4991, RMSE: 29.6901, MAE: 5.5215, R2: 0.6323
+  Validation  - MSE: 901.0430, RMSE: 30.0174, MAE: 5.1461, R2: 0.5634
+Epoch 108:
+  Training    - MSE: 890.4086, RMSE: 29.8397, MAE: 5.5087, R2: 0.6285
+  Validation  - MSE: 901.6794, RMSE: 30.0280, MAE: 5.1540, R2: 0.5631
+Epoch 109:
+  Training    - MSE: 883.1148, RMSE: 29.7172, MAE: 5.5223, R2: 0.6316
+  Validation  - MSE: 895.1080, RMSE: 29.9184, MAE: 5.1668, R2: 0.5663
+Epoch 110:
+  Training    - MSE: 874.6296, RMSE: 29.5741, MAE: 5.5167, R2: 0.6351
+  Validation  - MSE: 901.5499, RMSE: 30.0258, MAE: 5.1394, R2: 0.5632
+Epoch 111:
+  Training    - MSE: 884.9473, RMSE: 29.7481, MAE: 5.4820, R2: 0.6308
+  Validation  - MSE: 898.9751, RMSE: 29.9829, MAE: 5.1456, R2: 0.5644
+Epoch 112:
+  Training    - MSE: 902.3041, RMSE: 30.0384, MAE: 5.5072, R2: 0.6236
+  Validation  - MSE: 897.6498, RMSE: 29.9608, MAE: 5.1551, R2: 0.5651
+Epoch 113:
+  Training    - MSE: 869.6095, RMSE: 29.4891, MAE: 5.5105, R2: 0.6372
+  Validation  - MSE: 898.9395, RMSE: 29.9823, MAE: 5.1569, R2: 0.5644
+Epoch 114:
+  Training    - MSE: 885.1508, RMSE: 29.7515, MAE: 5.4950, R2: 0.6307
+  Validation  - MSE: 893.7161, RMSE: 29.8951, MAE: 5.1532, R2: 0.5670
+Epoch 115:
+  Training    - MSE: 870.7233, RMSE: 29.5080, MAE: 5.5155, R2: 0.6368
+  Validation  - MSE: 898.8372, RMSE: 29.9806, MAE: 5.1507, R2: 0.5645
+Epoch 116:
+  Training    - MSE: 875.7238, RMSE: 29.5926, MAE: 5.4837, R2: 0.6347
+  Validation  - MSE: 901.4120, RMSE: 30.0235, MAE: 5.1406, R2: 0.5632
+Epoch 117:
+  Training    - MSE: 869.2284, RMSE: 29.4827, MAE: 5.4780, R2: 0.6374
+  Validation  - MSE: 899.5600, RMSE: 29.9927, MAE: 5.1470, R2: 0.5641
+Epoch 118:
+  Training    - MSE: 890.6273, RMSE: 29.8434, MAE: 5.5567, R2: 0.6284
+  Validation  - MSE: 894.4285, RMSE: 29.9070, MAE: 5.1525, R2: 0.5666
+Epoch 119:
+  Training    - MSE: 893.2975, RMSE: 29.8881, MAE: 5.5004, R2: 0.6273
+  Validation  - MSE: 905.5666, RMSE: 30.0926, MAE: 5.1276, R2: 0.5612
+Epoch 120:
+  Training    - MSE: 911.1138, RMSE: 30.1847, MAE: 5.5426, R2: 0.6199
+  Validation  - MSE: 892.9158, RMSE: 29.8817, MAE: 5.1545, R2: 0.5674
+Epoch 121:
+  Training    - MSE: 868.2355, RMSE: 29.4658, MAE: 5.5088, R2: 0.6378
+  Validation  - MSE: 901.7764, RMSE: 30.0296, MAE: 5.1477, R2: 0.5631
+Epoch 122:
+  Training    - MSE: 894.9742, RMSE: 29.9161, MAE: 5.5314, R2: 0.6266
+  Validation  - MSE: 900.4811, RMSE: 30.0080, MAE: 5.1541, R2: 0.5637
+Epoch 123:
+  Training    - MSE: 898.7249, RMSE: 29.9787, MAE: 5.5439, R2: 0.6251
+  Validation  - MSE: 897.6043, RMSE: 29.9600, MAE: 5.1427, R2: 0.5651
+Epoch 124:
+  Training    - MSE: 873.2438, RMSE: 29.5507, MAE: 5.5024, R2: 0.6357
+  Validation  - MSE: 891.6101, RMSE: 29.8598, MAE: 5.1639, R2: 0.5680
+Epoch 125:
+  Training    - MSE: 872.8792, RMSE: 29.5445, MAE: 5.5032, R2: 0.6359
+  Validation  - MSE: 896.2811, RMSE: 29.9380, MAE: 5.1567, R2: 0.5657
+Epoch 126:
+  Training    - MSE: 876.1801, RMSE: 29.6003, MAE: 5.5070, R2: 0.6345
+  Validation  - MSE: 900.3458, RMSE: 30.0058, MAE: 5.1398, R2: 0.5638
+Epoch 127:
+  Training    - MSE: 887.7566, RMSE: 29.7952, MAE: 5.5148, R2: 0.6296
+  Validation  - MSE: 896.4760, RMSE: 29.9412, MAE: 5.1505, R2: 0.5656
+Epoch 128:
+  Training    - MSE: 876.7306, RMSE: 29.6096, MAE: 5.4910, R2: 0.6342
+  Validation  - MSE: 899.8022, RMSE: 29.9967, MAE: 5.1419, R2: 0.5640
+Epoch 129:
+  Training    - MSE: 868.5861, RMSE: 29.4718, MAE: 5.4680, R2: 0.6376
+  Validation  - MSE: 895.7669, RMSE: 29.9294, MAE: 5.1518, R2: 0.5660
+Epoch 130:
+  Training    - MSE: 882.1061, RMSE: 29.7003, MAE: 5.5187, R2: 0.6320
+  Validation  - MSE: 894.6785, RMSE: 29.9112, MAE: 5.1573, R2: 0.5665
+Epoch 131:
+  Training    - MSE: 874.4607, RMSE: 29.5713, MAE: 5.4969, R2: 0.6352
+  Validation  - MSE: 896.8054, RMSE: 29.9467, MAE: 5.1512, R2: 0.5655
+Epoch 132:
+  Training    - MSE: 896.2874, RMSE: 29.9381, MAE: 5.4966, R2: 0.6261
+  Validation  - MSE: 897.8184, RMSE: 29.9636, MAE: 5.1507, R2: 0.5650
+Epoch 133:
+  Training    - MSE: 874.6710, RMSE: 29.5748, MAE: 5.5030, R2: 0.6351
+  Validation  - MSE: 892.4986, RMSE: 29.8747, MAE: 5.1640, R2: 0.5676
+Epoch 134:
+  Training    - MSE: 891.6023, RMSE: 29.8597, MAE: 5.5269, R2: 0.6280
+  Validation  - MSE: 904.1368, RMSE: 30.0689, MAE: 5.1422, R2: 0.5619
+Epoch 135:
+  Training    - MSE: 895.1874, RMSE: 29.9197, MAE: 5.5358, R2: 0.6265
+  Validation  - MSE: 893.9087, RMSE: 29.8983, MAE: 5.1519, R2: 0.5669
+Epoch 136:
+  Training    - MSE: 883.1337, RMSE: 29.7176, MAE: 5.5228, R2: 0.6316
+  Validation  - MSE: 892.0093, RMSE: 29.8665, MAE: 5.1689, R2: 0.5678
+Epoch 137:
+  Training    - MSE: 878.5043, RMSE: 29.6396, MAE: 5.5219, R2: 0.6335
+  Validation  - MSE: 900.2431, RMSE: 30.0041, MAE: 5.1507, R2: 0.5638
+Epoch 138:
+  Training    - MSE: 884.9853, RMSE: 29.7487, MAE: 5.5056, R2: 0.6308
+  Validation  - MSE: 896.5132, RMSE: 29.9418, MAE: 5.1491, R2: 0.5656
+Epoch 139:
+  Training    - MSE: 873.6237, RMSE: 29.5571, MAE: 5.4956, R2: 0.6355
+  Validation  - MSE: 896.9632, RMSE: 29.9493, MAE: 5.1558, R2: 0.5654
+Epoch 140:
+  Training    - MSE: 880.7216, RMSE: 29.6770, MAE: 5.4732, R2: 0.6326
+  Validation  - MSE: 892.9769, RMSE: 29.8827, MAE: 5.1529, R2: 0.5673
+Epoch 141:
+  Training    - MSE: 878.5364, RMSE: 29.6401, MAE: 5.5152, R2: 0.6335
+  Validation  - MSE: 895.2554, RMSE: 29.9208, MAE: 5.1608, R2: 0.5662
+Epoch 142:
+  Training    - MSE: 869.8521, RMSE: 29.4933, MAE: 5.5014, R2: 0.6371
+  Validation  - MSE: 892.1739, RMSE: 29.8693, MAE: 5.1612, R2: 0.5677
+Epoch 143:
+  Training    - MSE: 876.6625, RMSE: 29.6085, MAE: 5.5047, R2: 0.6343
+  Validation  - MSE: 899.9455, RMSE: 29.9991, MAE: 5.1491, R2: 0.5640
+Epoch 144:
+  Training    - MSE: 873.4887, RMSE: 29.5548, MAE: 5.4942, R2: 0.6356
+  Validation  - MSE: 897.3047, RMSE: 29.9550, MAE: 5.1410, R2: 0.5652
+Epoch 145:
+  Training    - MSE: 864.0748, RMSE: 29.3951, MAE: 5.4844, R2: 0.6395
+  Validation  - MSE: 906.1036, RMSE: 30.1016, MAE: 5.1482, R2: 0.5610
+Epoch 146:
+  Training    - MSE: 876.0412, RMSE: 29.5980, MAE: 5.5174, R2: 0.6345
+  Validation  - MSE: 897.4339, RMSE: 29.9572, MAE: 5.1488, R2: 0.5652
+Epoch 147:
+  Training    - MSE: 874.9621, RMSE: 29.5798, MAE: 5.4686, R2: 0.6350
+  Validation  - MSE: 905.8123, RMSE: 30.0967, MAE: 5.1304, R2: 0.5611
+Epoch 148:
+  Training    - MSE: 907.6984, RMSE: 30.1280, MAE: 5.5757, R2: 0.6213
+  Validation  - MSE: 894.4603, RMSE: 29.9075, MAE: 5.1652, R2: 0.5666
+Epoch 149:
+  Training    - MSE: 888.8564, RMSE: 29.8137, MAE: 5.4901, R2: 0.6292
+  Validation  - MSE: 904.3466, RMSE: 30.0724, MAE: 5.1321, R2: 0.5618
+Epoch 150:
+  Training    - MSE: 870.8783, RMSE: 29.5106, MAE: 5.5517, R2: 0.6367
+  Validation  - MSE: 891.7234, RMSE: 29.8617, MAE: 5.1711, R2: 0.5679
+Epoch 151:
+  Training    - MSE: 875.8690, RMSE: 29.5951, MAE: 5.5226, R2: 0.6346
+  Validation  - MSE: 905.8711, RMSE: 30.0977, MAE: 5.1392, R2: 0.5611
+Epoch 152:
+  Training    - MSE: 876.1393, RMSE: 29.5997, MAE: 5.4968, R2: 0.6345
+  Validation  - MSE: 902.3826, RMSE: 30.0397, MAE: 5.1428, R2: 0.5628
+Epoch 153:
+  Training    - MSE: 873.5112, RMSE: 29.5552, MAE: 5.4804, R2: 0.6356
+  Validation  - MSE: 898.8857, RMSE: 29.9814, MAE: 5.1426, R2: 0.5645
+Epoch 154:
+  Training    - MSE: 869.1703, RMSE: 29.4817, MAE: 5.4555, R2: 0.6374
+  Validation  - MSE: 906.9703, RMSE: 30.1159, MAE: 5.1255, R2: 0.5606
+Epoch 155:
+  Training    - MSE: 899.6472, RMSE: 29.9941, MAE: 5.5151, R2: 0.6247
+  Validation  - MSE: 904.1126, RMSE: 30.0685, MAE: 5.1357, R2: 0.5619
+Epoch 156:
+  Training    - MSE: 881.2679, RMSE: 29.6862, MAE: 5.5289, R2: 0.6324
+  Validation  - MSE: 905.2208, RMSE: 30.0869, MAE: 5.1439, R2: 0.5614
+Epoch 157:
+  Training    - MSE: 901.8067, RMSE: 30.0301, MAE: 5.5263, R2: 0.6238
+  Validation  - MSE: 897.6043, RMSE: 29.9600, MAE: 5.1459, R2: 0.5651
+Epoch 158:
+  Training    - MSE: 887.4986, RMSE: 29.7909, MAE: 5.5197, R2: 0.6298
+  Validation  - MSE: 904.2466, RMSE: 30.0707, MAE: 5.1385, R2: 0.5619
+Epoch 159:
+  Training    - MSE: 883.8701, RMSE: 29.7300, MAE: 5.4824, R2: 0.6313
+  Validation  - MSE: 892.6366, RMSE: 29.8770, MAE: 5.1627, R2: 0.5675
+Epoch 160:
+  Training    - MSE: 882.6345, RMSE: 29.7092, MAE: 5.5274, R2: 0.6318
+  Validation  - MSE: 894.6947, RMSE: 29.9114, MAE: 5.1636, R2: 0.5665
+Epoch 161:
+  Training    - MSE: 863.2178, RMSE: 29.3806, MAE: 5.5155, R2: 0.6399
+  Validation  - MSE: 900.9489, RMSE: 30.0158, MAE: 5.1438, R2: 0.5635
+Epoch 162:
+  Training    - MSE: 869.6894, RMSE: 29.4905, MAE: 5.4876, R2: 0.6372
+  Validation  - MSE: 905.6017, RMSE: 30.0932, MAE: 5.1371, R2: 0.5612
+Epoch 163:
+  Training    - MSE: 877.6035, RMSE: 29.6244, MAE: 5.5143, R2: 0.6339
+  Validation  - MSE: 899.9016, RMSE: 29.9984, MAE: 5.1414, R2: 0.5640
+Epoch 164:
+  Training    - MSE: 897.6072, RMSE: 29.9601, MAE: 5.5541, R2: 0.6255
+  Validation  - MSE: 897.9641, RMSE: 29.9660, MAE: 5.1526, R2: 0.5649
+Epoch 165:
+  Training    - MSE: 878.5947, RMSE: 29.6411, MAE: 5.5221, R2: 0.6335
+  Validation  - MSE: 893.6207, RMSE: 29.8935, MAE: 5.1625, R2: 0.5670
+Epoch 166:
+  Training    - MSE: 888.1033, RMSE: 29.8011, MAE: 5.5154, R2: 0.6295
+  Validation  - MSE: 897.6974, RMSE: 29.9616, MAE: 5.1555, R2: 0.5650
+Epoch 167:
+  Training    - MSE: 874.8624, RMSE: 29.5781, MAE: 5.5144, R2: 0.6350
+  Validation  - MSE: 899.6092, RMSE: 29.9935, MAE: 5.1440, R2: 0.5641
+Epoch 168:
+  Training    - MSE: 903.5169, RMSE: 30.0586, MAE: 5.5616, R2: 0.6231
+  Validation  - MSE: 898.1017, RMSE: 29.9683, MAE: 5.1492, R2: 0.5648
+Epoch 169:
+  Training    - MSE: 886.3777, RMSE: 29.7721, MAE: 5.5170, R2: 0.6302
+  Validation  - MSE: 904.9802, RMSE: 30.0829, MAE: 5.1348, R2: 0.5615
+Epoch 170:
+  Training    - MSE: 877.2324, RMSE: 29.6181, MAE: 5.4956, R2: 0.6340
+  Validation  - MSE: 904.6130, RMSE: 30.0768, MAE: 5.1394, R2: 0.5617
+Epoch 171:
+  Training    - MSE: 900.0702, RMSE: 30.0012, MAE: 5.5138, R2: 0.6245
+  Validation  - MSE: 905.6182, RMSE: 30.0935, MAE: 5.1316, R2: 0.5612
+Epoch 172:
+  Training    - MSE: 875.0487, RMSE: 29.5812, MAE: 5.5000, R2: 0.6349
+  Validation  - MSE: 896.5770, RMSE: 29.9429, MAE: 5.1563, R2: 0.5656
+Epoch 173:
+  Training    - MSE: 888.6984, RMSE: 29.8110, MAE: 5.5076, R2: 0.6293
+  Validation  - MSE: 893.6181, RMSE: 29.8934, MAE: 5.1608, R2: 0.5670
+Epoch 174:
+  Training    - MSE: 867.8696, RMSE: 29.4596, MAE: 5.5169, R2: 0.6379
+  Validation  - MSE: 903.8893, RMSE: 30.0648, MAE: 5.1319, R2: 0.5620
+Epoch 175:
+  Training    - MSE: 873.6058, RMSE: 29.5568, MAE: 5.4620, R2: 0.6355
+  Validation  - MSE: 903.8223, RMSE: 30.0636, MAE: 5.1402, R2: 0.5621
+Epoch 176:
+  Training    - MSE: 888.3298, RMSE: 29.8049, MAE: 5.5095, R2: 0.6294
+  Validation  - MSE: 902.4581, RMSE: 30.0409, MAE: 5.1406, R2: 0.5627
+Epoch 177:
+  Training    - MSE: 860.2441, RMSE: 29.3299, MAE: 5.4884, R2: 0.6411
+  Validation  - MSE: 898.4924, RMSE: 29.9749, MAE: 5.1547, R2: 0.5647
+Epoch 178:
+  Training    - MSE: 864.6697, RMSE: 29.4053, MAE: 5.4778, R2: 0.6393
+  Validation  - MSE: 900.3601, RMSE: 30.0060, MAE: 5.1502, R2: 0.5638
+Epoch 179:
+  Training    - MSE: 874.9637, RMSE: 29.5798, MAE: 5.4688, R2: 0.6350
+  Validation  - MSE: 902.6920, RMSE: 30.0448, MAE: 5.1401, R2: 0.5626
+Epoch 180:
+  Training    - MSE: 863.9438, RMSE: 29.3929, MAE: 5.4912, R2: 0.6396
+  Validation  - MSE: 902.0504, RMSE: 30.0342, MAE: 5.1423, R2: 0.5629
+Epoch 181:
+  Training    - MSE: 880.6520, RMSE: 29.6758, MAE: 5.5157, R2: 0.6326
+  Validation  - MSE: 900.8062, RMSE: 30.0134, MAE: 5.1387, R2: 0.5635
+Epoch 182:
+  Training    - MSE: 879.5123, RMSE: 29.6566, MAE: 5.5068, R2: 0.6331
+  Validation  - MSE: 912.8885, RMSE: 30.2140, MAE: 5.1338, R2: 0.5577
+Epoch 183:
+  Training    - MSE: 893.3892, RMSE: 29.8896, MAE: 5.5296, R2: 0.6273
+  Validation  - MSE: 895.1384, RMSE: 29.9189, MAE: 5.1618, R2: 0.5663
+Epoch 184:
+  Training    - MSE: 874.3139, RMSE: 29.5688, MAE: 5.4809, R2: 0.6353
+  Validation  - MSE: 896.4400, RMSE: 29.9406, MAE: 5.1487, R2: 0.5657
+Epoch 185:
+  Training    - MSE: 876.8135, RMSE: 29.6110, MAE: 5.5287, R2: 0.6342
+  Validation  - MSE: 903.9186, RMSE: 30.0652, MAE: 5.1367, R2: 0.5620
+Epoch 186:
+  Training    - MSE: 876.4064, RMSE: 29.6042, MAE: 5.5151, R2: 0.6344
+  Validation  - MSE: 899.5126, RMSE: 29.9919, MAE: 5.1383, R2: 0.5642
+Epoch 187:
+  Training    - MSE: 884.1418, RMSE: 29.7345, MAE: 5.4895, R2: 0.6312
+  Validation  - MSE: 898.1577, RMSE: 29.9693, MAE: 5.1517, R2: 0.5648
+Epoch 188:
+  Training    - MSE: 888.1582, RMSE: 29.8020, MAE: 5.4938, R2: 0.6295
+  Validation  - MSE: 893.0378, RMSE: 29.8837, MAE: 5.1598, R2: 0.5673
+Epoch 189:
+  Training    - MSE: 881.1805, RMSE: 29.6847, MAE: 5.4781, R2: 0.6324
+  Validation  - MSE: 907.0762, RMSE: 30.1177, MAE: 5.1240, R2: 0.5605
+Epoch 190:
+  Training    - MSE: 873.9845, RMSE: 29.5632, MAE: 5.4997, R2: 0.6354
+  Validation  - MSE: 895.5441, RMSE: 29.9256, MAE: 5.1561, R2: 0.5661
+Epoch 191:
+  Training    - MSE: 872.6898, RMSE: 29.5413, MAE: 5.5108, R2: 0.6359
+  Validation  - MSE: 900.7716, RMSE: 30.0129, MAE: 5.1466, R2: 0.5636
+Epoch 192:
+  Training    - MSE: 873.8708, RMSE: 29.5613, MAE: 5.4900, R2: 0.6354
+  Validation  - MSE: 899.3058, RMSE: 29.9884, MAE: 5.1436, R2: 0.5643
+Epoch 193:
+  Training    - MSE: 892.9534, RMSE: 29.8823, MAE: 5.5506, R2: 0.6275
+  Validation  - MSE: 901.7871, RMSE: 30.0298, MAE: 5.1436, R2: 0.5631
+Epoch 194:
+  Training    - MSE: 868.3458, RMSE: 29.4677, MAE: 5.4948, R2: 0.6377
+  Validation  - MSE: 898.1618, RMSE: 29.9693, MAE: 5.1464, R2: 0.5648
+Epoch 195:
+  Training    - MSE: 884.0916, RMSE: 29.7337, MAE: 5.4975, R2: 0.6312
+  Validation  - MSE: 900.6346, RMSE: 30.0106, MAE: 5.1541, R2: 0.5636
+Epoch 196:
+  Training    - MSE: 888.8002, RMSE: 29.8128, MAE: 5.4846, R2: 0.6292
+  Validation  - MSE: 893.1869, RMSE: 29.8862, MAE: 5.1482, R2: 0.5672
+Epoch 197:
+  Training    - MSE: 883.4593, RMSE: 29.7230, MAE: 5.4907, R2: 0.6314
+  Validation  - MSE: 902.5371, RMSE: 30.0423, MAE: 5.1413, R2: 0.5627
+Epoch 198:
+  Training    - MSE: 883.3621, RMSE: 29.7214, MAE: 5.4721, R2: 0.6315
+  Validation  - MSE: 894.7260, RMSE: 29.9120, MAE: 5.1481, R2: 0.5665
+Epoch 199:
+  Training    - MSE: 868.8167, RMSE: 29.4757, MAE: 5.4963, R2: 0.6375
+  Validation  - MSE: 895.9928, RMSE: 29.9331, MAE: 5.1482, R2: 0.5659
+Epoch 200:
+  Training    - MSE: 883.9271, RMSE: 29.7309, MAE: 5.5317, R2: 0.6312
+  Validation  - MSE: 901.1254, RMSE: 30.0188, MAE: 5.1430, R2: 0.5634
+Epoch 201:
+  Training    - MSE: 874.5970, RMSE: 29.5736, MAE: 5.5141, R2: 0.6351
+  Validation  - MSE: 893.5360, RMSE: 29.8921, MAE: 5.1662, R2: 0.5671
+Epoch 202:
+  Training    - MSE: 880.9607, RMSE: 29.6810, MAE: 5.5093, R2: 0.6325
+  Validation  - MSE: 896.2055, RMSE: 29.9367, MAE: 5.1496, R2: 0.5658
+Epoch 203:
+  Training    - MSE: 889.3440, RMSE: 29.8219, MAE: 5.4819, R2: 0.6290
+  Validation  - MSE: 896.9491, RMSE: 29.9491, MAE: 5.1508, R2: 0.5654
+Epoch 204:
+  Training    - MSE: 887.2289, RMSE: 29.7864, MAE: 5.4733, R2: 0.6299
+  Validation  - MSE: 906.6000, RMSE: 30.1098, MAE: 5.1345, R2: 0.5607
+Epoch 205:
+  Training    - MSE: 867.1637, RMSE: 29.4476, MAE: 5.4850, R2: 0.6382
+  Validation  - MSE: 889.3035, RMSE: 29.8212, MAE: 5.1595, R2: 0.5691
+Epoch 206:
+  Training    - MSE: 887.4485, RMSE: 29.7901, MAE: 5.5393, R2: 0.6298
+  Validation  - MSE: 898.8380, RMSE: 29.9806, MAE: 5.1523, R2: 0.5645
+Epoch 207:
+  Training    - MSE: 881.4152, RMSE: 29.6886, MAE: 5.5551, R2: 0.6323
+  Validation  - MSE: 903.9509, RMSE: 30.0658, MAE: 5.1434, R2: 0.5620
+Epoch 208:
+  Training    - MSE: 871.2382, RMSE: 29.5167, MAE: 5.4981, R2: 0.6365
+  Validation  - MSE: 903.1432, RMSE: 30.0523, MAE: 5.1448, R2: 0.5624
+Epoch 209:
+  Training    - MSE: 896.3215, RMSE: 29.9386, MAE: 5.5308, R2: 0.6261
+  Validation  - MSE: 901.8514, RMSE: 30.0308, MAE: 5.1395, R2: 0.5630
+Epoch 210:
+  Training    - MSE: 872.2545, RMSE: 29.5340, MAE: 5.4900, R2: 0.6361
+  Validation  - MSE: 896.8072, RMSE: 29.9467, MAE: 5.1456, R2: 0.5655
+Epoch 211:
+  Training    - MSE: 879.5159, RMSE: 29.6566, MAE: 5.5217, R2: 0.6331
+  Validation  - MSE: 895.0362, RMSE: 29.9172, MAE: 5.1536, R2: 0.5663
+Epoch 212:
+  Training    - MSE: 865.8641, RMSE: 29.4256, MAE: 5.4750, R2: 0.6388
+  Validation  - MSE: 903.5112, RMSE: 30.0585, MAE: 5.1437, R2: 0.5622
+Epoch 213:
+  Training    - MSE: 869.4284, RMSE: 29.4861, MAE: 5.5160, R2: 0.6373
+  Validation  - MSE: 896.6232, RMSE: 29.9437, MAE: 5.1569, R2: 0.5656
+Epoch 214:
+  Training    - MSE: 881.4070, RMSE: 29.6885, MAE: 5.5033, R2: 0.6323
+  Validation  - MSE: 899.2341, RMSE: 29.9872, MAE: 5.1498, R2: 0.5643
+Epoch 215:
+  Training    - MSE: 872.1840, RMSE: 29.5328, MAE: 5.4649, R2: 0.6361
+  Validation  - MSE: 895.5613, RMSE: 29.9259, MAE: 5.1445, R2: 0.5661
+Epoch 216:
+  Training    - MSE: 913.0148, RMSE: 30.2161, MAE: 5.5204, R2: 0.6191
+  Validation  - MSE: 898.9033, RMSE: 29.9817, MAE: 5.1466, R2: 0.5645
+Epoch 217:
+  Training    - MSE: 875.0226, RMSE: 29.5808, MAE: 5.4975, R2: 0.6350
+  Validation  - MSE: 895.2435, RMSE: 29.9206, MAE: 5.1490, R2: 0.5662
+Epoch 218:
+  Training    - MSE: 892.4509, RMSE: 29.8739, MAE: 5.5192, R2: 0.6277
+  Validation  - MSE: 898.7689, RMSE: 29.9795, MAE: 5.1508, R2: 0.5645
+Epoch 219:
+  Training    - MSE: 877.8707, RMSE: 29.6289, MAE: 5.5148, R2: 0.6338
+  Validation  - MSE: 910.0569, RMSE: 30.1671, MAE: 5.1307, R2: 0.5591
+Epoch 220:
+  Training    - MSE: 894.5560, RMSE: 29.9091, MAE: 5.5602, R2: 0.6268
+  Validation  - MSE: 890.0608, RMSE: 29.8339, MAE: 5.1722, R2: 0.5687
+Epoch 221:
+  Training    - MSE: 891.1147, RMSE: 29.8515, MAE: 5.5192, R2: 0.6282
+  Validation  - MSE: 893.8226, RMSE: 29.8969, MAE: 5.1640, R2: 0.5669
+Epoch 222:
+  Training    - MSE: 887.5212, RMSE: 29.7913, MAE: 5.4993, R2: 0.6297
+  Validation  - MSE: 900.0698, RMSE: 30.0012, MAE: 5.1373, R2: 0.5639
+Epoch 223:
+  Training    - MSE: 918.0944, RMSE: 30.3001, MAE: 5.5266, R2: 0.6170
+  Validation  - MSE: 897.6909, RMSE: 29.9615, MAE: 5.1582, R2: 0.5650
+Epoch 224:
+  Training    - MSE: 867.9505, RMSE: 29.4610, MAE: 5.4964, R2: 0.6379
+  Validation  - MSE: 898.4459, RMSE: 29.9741, MAE: 5.1491, R2: 0.5647
+Epoch 225:
+  Training    - MSE: 898.0391, RMSE: 29.9673, MAE: 5.5309, R2: 0.6254
+  Validation  - MSE: 893.8022, RMSE: 29.8965, MAE: 5.1486, R2: 0.5669
+Epoch 226:
+  Training    - MSE: 892.5595, RMSE: 29.8757, MAE: 5.5024, R2: 0.6276
+  Validation  - MSE: 906.2581, RMSE: 30.1041, MAE: 5.1256, R2: 0.5609
+Epoch 227:
+  Training    - MSE: 889.4377, RMSE: 29.8234, MAE: 5.5658, R2: 0.6289
+  Validation  - MSE: 894.0156, RMSE: 29.9001, MAE: 5.1522, R2: 0.5668
+Epoch 228:
+  Training    - MSE: 871.1208, RMSE: 29.5148, MAE: 5.4968, R2: 0.6366
+  Validation  - MSE: 903.0740, RMSE: 30.0512, MAE: 5.1401, R2: 0.5624
+Epoch 229:
+  Training    - MSE: 879.4390, RMSE: 29.6553, MAE: 5.5282, R2: 0.6331
+  Validation  - MSE: 896.2297, RMSE: 29.9371, MAE: 5.1476, R2: 0.5658
+Epoch 230:
+  Training    - MSE: 891.6998, RMSE: 29.8613, MAE: 5.5305, R2: 0.6280
+  Validation  - MSE: 894.2516, RMSE: 29.9040, MAE: 5.1598, R2: 0.5667
+Epoch 231:
+  Training    - MSE: 878.9990, RMSE: 29.6479, MAE: 5.4884, R2: 0.6333
+  Validation  - MSE: 901.2965, RMSE: 30.0216, MAE: 5.1352, R2: 0.5633
+Epoch 232:
+  Training    - MSE: 863.2566, RMSE: 29.3812, MAE: 5.4831, R2: 0.6399
+  Validation  - MSE: 895.5681, RMSE: 29.9260, MAE: 5.1427, R2: 0.5661
+Epoch 233:
+  Training    - MSE: 887.0843, RMSE: 29.7840, MAE: 5.4920, R2: 0.6299
+  Validation  - MSE: 901.9201, RMSE: 30.0320, MAE: 5.1492, R2: 0.5630
+Epoch 234:
+  Training    - MSE: 887.1660, RMSE: 29.7853, MAE: 5.5296, R2: 0.6299
+  Validation  - MSE: 901.0481, RMSE: 30.0175, MAE: 5.1418, R2: 0.5634
+Epoch 235:
+  Training    - MSE: 871.9613, RMSE: 29.5290, MAE: 5.4928, R2: 0.6362
+  Validation  - MSE: 901.7776, RMSE: 30.0296, MAE: 5.1440, R2: 0.5631
+Epoch 236:
+  Training    - MSE: 896.6780, RMSE: 29.9446, MAE: 5.5242, R2: 0.6259
+  Validation  - MSE: 900.0880, RMSE: 30.0015, MAE: 5.1507, R2: 0.5639
+Epoch 237:
+  Training    - MSE: 883.7590, RMSE: 29.7281, MAE: 5.5125, R2: 0.6313
+  Validation  - MSE: 899.1136, RMSE: 29.9852, MAE: 5.1564, R2: 0.5644
+Epoch 238:
+  Training    - MSE: 860.4604, RMSE: 29.3336, MAE: 5.5362, R2: 0.6410
+  Validation  - MSE: 902.2368, RMSE: 30.0373, MAE: 5.1370, R2: 0.5628
+Epoch 239:
+  Training    - MSE: 871.7972, RMSE: 29.5262, MAE: 5.4873, R2: 0.6363
+  Validation  - MSE: 894.9404, RMSE: 29.9156, MAE: 5.1539, R2: 0.5664
+Epoch 240:
+  Training    - MSE: 872.1080, RMSE: 29.5315, MAE: 5.5049, R2: 0.6362
+  Validation  - MSE: 895.3023, RMSE: 29.9216, MAE: 5.1521, R2: 0.5662
+Epoch 241:
+  Training    - MSE: 865.8768, RMSE: 29.4258, MAE: 5.4940, R2: 0.6388
+  Validation  - MSE: 893.5964, RMSE: 29.8931, MAE: 5.1625, R2: 0.5670
+Epoch 242:
+  Training    - MSE: 850.2802, RMSE: 29.1596, MAE: 5.4972, R2: 0.6453
+  Validation  - MSE: 895.1365, RMSE: 29.9188, MAE: 5.1555, R2: 0.5663
+Epoch 243:
+  Training    - MSE: 880.0759, RMSE: 29.6661, MAE: 5.4699, R2: 0.6329
+  Validation  - MSE: 896.9576, RMSE: 29.9493, MAE: 5.1447, R2: 0.5654
+Epoch 244:
+  Training    - MSE: 875.5793, RMSE: 29.5902, MAE: 5.4754, R2: 0.6347
+  Validation  - MSE: 904.8606, RMSE: 30.0809, MAE: 5.1353, R2: 0.5616
+Epoch 245:
+  Training    - MSE: 878.5372, RMSE: 29.6401, MAE: 5.5057, R2: 0.6335
+  Validation  - MSE: 898.6294, RMSE: 29.9771, MAE: 5.1396, R2: 0.5646
+Epoch 246:
+  Training    - MSE: 914.6656, RMSE: 30.2434, MAE: 5.5482, R2: 0.6184
+  Validation  - MSE: 897.7828, RMSE: 29.9630, MAE: 5.1483, R2: 0.5650
+Epoch 247:
+  Training    - MSE: 859.0333, RMSE: 29.3093, MAE: 5.5168, R2: 0.6416
+  Validation  - MSE: 903.3840, RMSE: 30.0563, MAE: 5.1434, R2: 0.5623
+Epoch 248:
+  Training    - MSE: 896.6749, RMSE: 29.9445, MAE: 5.4909, R2: 0.6259
+  Validation  - MSE: 902.6136, RMSE: 30.0435, MAE: 5.1331, R2: 0.5627
+Epoch 249:
+  Training    - MSE: 869.2736, RMSE: 29.4834, MAE: 5.4825, R2: 0.6374
+  Validation  - MSE: 898.8009, RMSE: 29.9800, MAE: 5.1497, R2: 0.5645
+Epoch 250:
+  Training    - MSE: 867.5800, RMSE: 29.4547, MAE: 5.5009, R2: 0.6381
+  Validation  - MSE: 891.0792, RMSE: 29.8510, MAE: 5.1518, R2: 0.5683
+Epoch 251:
+  Training    - MSE: 895.1954, RMSE: 29.9198, MAE: 5.5336, R2: 0.6265
+  Validation  - MSE: 894.1276, RMSE: 29.9020, MAE: 5.1542, R2: 0.5668
+Epoch 252:
+  Training    - MSE: 889.9799, RMSE: 29.8325, MAE: 5.5061, R2: 0.6287
+  Validation  - MSE: 893.2626, RMSE: 29.8875, MAE: 5.1557, R2: 0.5672
+Epoch 253:
+  Training    - MSE: 883.4189, RMSE: 29.7224, MAE: 5.5416, R2: 0.6315
+  Validation  - MSE: 893.5143, RMSE: 29.8917, MAE: 5.1674, R2: 0.5671
+Epoch 254:
+  Training    - MSE: 885.5462, RMSE: 29.7581, MAE: 5.4596, R2: 0.6306
+  Validation  - MSE: 901.3543, RMSE: 30.0226, MAE: 5.1360, R2: 0.5633
+Epoch 255:
+  Training    - MSE: 870.9113, RMSE: 29.5112, MAE: 5.5008, R2: 0.6367
+  Validation  - MSE: 889.1422, RMSE: 29.8185, MAE: 5.1634, R2: 0.5692
+Epoch 256:
+  Training    - MSE: 872.4933, RMSE: 29.5380, MAE: 5.4779, R2: 0.6360
+  Validation  - MSE: 897.4560, RMSE: 29.9576, MAE: 5.1605, R2: 0.5652
+Epoch 257:
+  Training    - MSE: 890.4798, RMSE: 29.8409, MAE: 5.4924, R2: 0.6285
+  Validation  - MSE: 897.7233, RMSE: 29.9620, MAE: 5.1412, R2: 0.5650
+Epoch 258:
+  Training    - MSE: 874.7266, RMSE: 29.5758, MAE: 5.4892, R2: 0.6351
+  Validation  - MSE: 893.4866, RMSE: 29.8912, MAE: 5.1626, R2: 0.5671
+Epoch 259:
+  Training    - MSE: 880.7338, RMSE: 29.6772, MAE: 5.4945, R2: 0.6326
+  Validation  - MSE: 902.1872, RMSE: 30.0364, MAE: 5.1388, R2: 0.5629
+Epoch 260:
+  Training    - MSE: 886.1107, RMSE: 29.7676, MAE: 5.5310, R2: 0.6303
+  Validation  - MSE: 903.1443, RMSE: 30.0524, MAE: 5.1464, R2: 0.5624
+Epoch 261:
+  Training    - MSE: 894.3849, RMSE: 29.9063, MAE: 5.5390, R2: 0.6269
+  Validation  - MSE: 898.0585, RMSE: 29.9676, MAE: 5.1520, R2: 0.5649
+Epoch 262:
+  Training    - MSE: 882.5062, RMSE: 29.7070, MAE: 5.5051, R2: 0.6318
+  Validation  - MSE: 898.3099, RMSE: 29.9718, MAE: 5.1540, R2: 0.5647
+Epoch 263:
+  Training    - MSE: 879.2281, RMSE: 29.6518, MAE: 5.4919, R2: 0.6332
+  Validation  - MSE: 899.4745, RMSE: 29.9912, MAE: 5.1462, R2: 0.5642
+Epoch 264:
+  Training    - MSE: 891.0756, RMSE: 29.8509, MAE: 5.5219, R2: 0.6283
+  Validation  - MSE: 900.9871, RMSE: 30.0164, MAE: 5.1348, R2: 0.5635
+Epoch 265:
+  Training    - MSE: 876.0792, RMSE: 29.5986, MAE: 5.4907, R2: 0.6345
+  Validation  - MSE: 902.4631, RMSE: 30.0410, MAE: 5.1415, R2: 0.5627
+Epoch 266:
+  Training    - MSE: 880.3331, RMSE: 29.6704, MAE: 5.5201, R2: 0.6327
+  Validation  - MSE: 898.7487, RMSE: 29.9791, MAE: 5.1577, R2: 0.5645
+Epoch 267:
+  Training    - MSE: 880.9421, RMSE: 29.6807, MAE: 5.5056, R2: 0.6325
+  Validation  - MSE: 900.1327, RMSE: 30.0022, MAE: 5.1484, R2: 0.5639
+Epoch 268:
+  Training    - MSE: 887.3984, RMSE: 29.7892, MAE: 5.4929, R2: 0.6298
+  Validation  - MSE: 888.9010, RMSE: 29.8144, MAE: 5.1562, R2: 0.5693
+Epoch 269:
+  Training    - MSE: 895.8886, RMSE: 29.9314, MAE: 5.5461, R2: 0.6263
+  Validation  - MSE: 899.4966, RMSE: 29.9916, MAE: 5.1521, R2: 0.5642
+Epoch 270:
+  Training    - MSE: 877.3674, RMSE: 29.6204, MAE: 5.5242, R2: 0.6340
+  Validation  - MSE: 892.5430, RMSE: 29.8755, MAE: 5.1606, R2: 0.5675
+Epoch 271:
+  Training    - MSE: 887.5015, RMSE: 29.7910, MAE: 5.4715, R2: 0.6298
+  Validation  - MSE: 898.6831, RMSE: 29.9780, MAE: 5.1394, R2: 0.5646
+Epoch 272:
+  Training    - MSE: 870.3713, RMSE: 29.5021, MAE: 5.4760, R2: 0.6369
+  Validation  - MSE: 897.5359, RMSE: 29.9589, MAE: 5.1476, R2: 0.5651
+Epoch 273:
+  Training    - MSE: 872.1100, RMSE: 29.5315, MAE: 5.4764, R2: 0.6362
+  Validation  - MSE: 899.2105, RMSE: 29.9868, MAE: 5.1445, R2: 0.5643
+Epoch 274:
+  Training    - MSE: 908.5840, RMSE: 30.1427, MAE: 5.5521, R2: 0.6210
+  Validation  - MSE: 895.8137, RMSE: 29.9301, MAE: 5.1475, R2: 0.5660
+Epoch 275:
+  Training    - MSE: 869.1990, RMSE: 29.4822, MAE: 5.4998, R2: 0.6374
+  Validation  - MSE: 902.2443, RMSE: 30.0374, MAE: 5.1439, R2: 0.5628
+Epoch 276:
+  Training    - MSE: 875.8240, RMSE: 29.5943, MAE: 5.4977, R2: 0.6346
+  Validation  - MSE: 910.9938, RMSE: 30.1827, MAE: 5.1293, R2: 0.5586
+Epoch 277:
+  Training    - MSE: 872.0078, RMSE: 29.5298, MAE: 5.4785, R2: 0.6362
+  Validation  - MSE: 902.2535, RMSE: 30.0375, MAE: 5.1316, R2: 0.5628
+Epoch 278:
+  Training    - MSE: 880.2379, RMSE: 29.6688, MAE: 5.4885, R2: 0.6328
+  Validation  - MSE: 899.7271, RMSE: 29.9955, MAE: 5.1478, R2: 0.5641
+Epoch 279:
+  Training    - MSE: 875.2056, RMSE: 29.5839, MAE: 5.4868, R2: 0.6349
+  Validation  - MSE: 905.4485, RMSE: 30.0907, MAE: 5.1356, R2: 0.5613
+Epoch 280:
+  Training    - MSE: 895.2922, RMSE: 29.9214, MAE: 5.5412, R2: 0.6265
+  Validation  - MSE: 899.4436, RMSE: 29.9907, MAE: 5.1406, R2: 0.5642
+Epoch 281:
+  Training    - MSE: 902.0895, RMSE: 30.0348, MAE: 5.5099, R2: 0.6237
+  Validation  - MSE: 901.1974, RMSE: 30.0200, MAE: 5.1449, R2: 0.5634
+Epoch 282:
+  Training    - MSE: 883.3522, RMSE: 29.7212, MAE: 5.5057, R2: 0.6315
+  Validation  - MSE: 904.5222, RMSE: 30.0753, MAE: 5.1487, R2: 0.5617
+Epoch 283:
+  Training    - MSE: 894.3057, RMSE: 29.9049, MAE: 5.5593, R2: 0.6269
+  Validation  - MSE: 894.7005, RMSE: 29.9115, MAE: 5.1610, R2: 0.5665
+Epoch 284:
+  Training    - MSE: 872.1938, RMSE: 29.5329, MAE: 5.4946, R2: 0.6361
+  Validation  - MSE: 901.5476, RMSE: 30.0258, MAE: 5.1415, R2: 0.5632
+Epoch 285:
+  Training    - MSE: 898.7601, RMSE: 29.9793, MAE: 5.5111, R2: 0.6251
+  Validation  - MSE: 896.0874, RMSE: 29.9347, MAE: 5.1516, R2: 0.5658
+Epoch 286:
+  Training    - MSE: 875.8320, RMSE: 29.5945, MAE: 5.4968, R2: 0.6346
+  Validation  - MSE: 897.3893, RMSE: 29.9565, MAE: 5.1424, R2: 0.5652
+Epoch 287:
+  Training    - MSE: 873.1468, RMSE: 29.5491, MAE: 5.4887, R2: 0.6357
+  Validation  - MSE: 898.6862, RMSE: 29.9781, MAE: 5.1362, R2: 0.5646
+Epoch 288:
+  Training    - MSE: 869.8159, RMSE: 29.4926, MAE: 5.4931, R2: 0.6371
+  Validation  - MSE: 900.3479, RMSE: 30.0058, MAE: 5.1437, R2: 0.5638
+Epoch 289:
+  Training    - MSE: 867.4788, RMSE: 29.4530, MAE: 5.5006, R2: 0.6381
+  Validation  - MSE: 897.4269, RMSE: 29.9571, MAE: 5.1489, R2: 0.5652
+Epoch 290:
+  Training    - MSE: 898.3546, RMSE: 29.9726, MAE: 5.5117, R2: 0.6252
+  Validation  - MSE: 893.3434, RMSE: 29.8889, MAE: 5.1446, R2: 0.5672
+Epoch 291:
+  Training    - MSE: 888.2766, RMSE: 29.8040, MAE: 5.5021, R2: 0.6294
+  Validation  - MSE: 895.3886, RMSE: 29.9230, MAE: 5.1564, R2: 0.5662
+Epoch 292:
+  Training    - MSE: 863.7214, RMSE: 29.3891, MAE: 5.5099, R2: 0.6397
+  Validation  - MSE: 908.0710, RMSE: 30.1342, MAE: 5.1337, R2: 0.5600
+Epoch 293:
+  Training    - MSE: 890.5115, RMSE: 29.8414, MAE: 5.5279, R2: 0.6285
+  Validation  - MSE: 899.9257, RMSE: 29.9988, MAE: 5.1406, R2: 0.5640
+Epoch 294:
+  Training    - MSE: 881.0732, RMSE: 29.6829, MAE: 5.4959, R2: 0.6324
+  Validation  - MSE: 897.3577, RMSE: 29.9559, MAE: 5.1484, R2: 0.5652
+Epoch 295:
+  Training    - MSE: 904.1832, RMSE: 30.0696, MAE: 5.5266, R2: 0.6228
+  Validation  - MSE: 895.2931, RMSE: 29.9214, MAE: 5.1531, R2: 0.5662
+Epoch 296:
+  Training    - MSE: 894.1761, RMSE: 29.9028, MAE: 5.4939, R2: 0.6270
+  Validation  - MSE: 897.3329, RMSE: 29.9555, MAE: 5.1356, R2: 0.5652
+Epoch 297:
+  Training    - MSE: 878.0455, RMSE: 29.6318, MAE: 5.4737, R2: 0.6337
+  Validation  - MSE: 892.6219, RMSE: 29.8768, MAE: 5.1496, R2: 0.5675
+Epoch 298:
+  Training    - MSE: 878.3612, RMSE: 29.6372, MAE: 5.5054, R2: 0.6336
+  Validation  - MSE: 900.3177, RMSE: 30.0053, MAE: 5.1519, R2: 0.5638
+Epoch 299:
+  Training    - MSE: 884.1349, RMSE: 29.7344, MAE: 5.4948, R2: 0.6312
+  Validation  - MSE: 899.5629, RMSE: 29.9927, MAE: 5.1513, R2: 0.5641
+Epoch 300:
+  Training    - MSE: 884.2042, RMSE: 29.7356, MAE: 5.5027, R2: 0.6311
+  Validation  - MSE: 902.1393, RMSE: 30.0356, MAE: 5.1492, R2: 0.5629
+  Test        - MSE: 813.5374, RMSE: 28.5226, MAE: 5.2204, R2: 0.6253
